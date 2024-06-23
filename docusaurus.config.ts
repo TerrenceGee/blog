@@ -3,9 +3,9 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
+  title: 'Terrence Gee',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/tg.svg',
 
   // Set the production url of your site here
   // url: 'https://your-docusaurus-site.example.com',
@@ -40,14 +40,12 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/TerrenceGee/blog/tree/source/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/TerrenceGee/blog/tree/source/',
         },
@@ -59,29 +57,45 @@ const config: Config = {
   ],
 
   themeConfig: {
+
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+
+    // navbar
     navbar: {
-      title: 'My Site',
+      title: 'Terrence Gee',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Terrence Gee Logo',
+        src: 'img/tg.svg',
       },
       items: [
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'language',
+        //   position: 'left',
+        //   label: '编程语言',
+        // },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
+        // blog
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          to: '/blog/blog',
+          label: 'Blog',
+          position: 'right',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/TerrenceGee',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
+
+    // footer
     footer: {
       style: 'dark',
       links: [
