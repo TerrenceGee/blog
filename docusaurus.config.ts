@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Terrence Gee',
-  tagline: 'Dinosaurs are cool',
+  tagline: '成熟的代码是思维的体现！',
   favicon: 'img/tg.svg',
 
   // Set the production url of your site here
@@ -113,28 +113,28 @@ const config: Config = {
       links: [
         {
           title: 'Docs',
-          items: [
+          /* items: [
             {
               label: 'Tutorial',
               to: '/docs/intro',
             },
-          ],
+          ], */
         },
         {
           title: 'Community',
           items: [
-            {
+           /*  {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
+            }, */
+            /* {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
+            }, */
+            /* {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
-            },
+            }, */
           ],
         },
         {
@@ -142,11 +142,11 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: '/blog/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/TerrenceGee/blog',
             },
           ],
         },
