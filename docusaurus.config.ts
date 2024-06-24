@@ -69,12 +69,24 @@ const config: Config = {
         src: 'img/tg.svg',
       },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'language',
-        //   position: 'left',
-        //   label: '编程语言',
-        // },
+        {
+          type: 'docSidebar',
+          sidebarId: 'language',
+          position: 'left',
+          label: '编程语言',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'webApp',
+          position: 'left',
+          label: 'web应用',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'operations',
+          position: 'left',
+          label: '运维',
+        },
         // {
         //   type: 'docSidebar',
         //   sidebarId: 'tutorialSidebar',
