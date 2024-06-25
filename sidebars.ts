@@ -23,12 +23,13 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: '语言',
       items: ['language/test1'],
-    }, */
+    }, 
     {
       type: 'category',
       label: '语言',
       items: ['language/test1'],
     },
+    */
 
   ],
   webApp: [
